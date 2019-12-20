@@ -1,0 +1,29 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.card {
+margin: 0 auto;
+position: relative;
+justify-content: center;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.card-name {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.lien-cocktail {
+z-index: 1;
+right: 100%;
+left:100%;
+bottom: 100%;
+top: 100%;
+}
